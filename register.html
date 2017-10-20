@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<meta charset = "utf-8">
+	</head>
+	
+	<body>
+		<h1>使用者註冊</h1>
+		<form action="action_page.php">
+			<p><label>帳號
+				<input type="text" name="account" placeholder = "請輸入帳號"></label></p>
+			<p><label>密碼
+				<input type="password" name="password"></label></p>
+			<p><label>郵件
+				<input type="email" name = "email" placeholder = "請輸入郵件"></label></p>
+			<p><label>生日
+				<input type="text" name = "birthday" placeholder = "年/月/日"></label></p>
+			<p><label>性別</label>
+				<label>男
+					<input name = "sex" type = "radio" value = "Male"></label>
+				<label>女
+					<input name = "sex" type = "radio" value = "Female"></label>
+				<label>其他
+					<input name = "sex" type = "radio" value = "Other"></label>
+			</p>
+			<p><label>喜好</label>
+				<label>打球
+					<input name = "habit" type = "checkbox" value = "PlayBall"></label>
+				<label>打電動
+					<input name = "habit" type = "checkbox" value = "PlayGame"></label>
+				<label>購物
+					<input name = "habit" type = "checkbox" value = "Shopping"></label>
+				<label>其他
+					<input name = "habit" type = "checkbox" value = "Other"></label>
+			</p>
+			<p><label>年級
+				<select name = "year">
+					<option selected>大一</option>
+					<option>大一</option>
+					<option>大二</option>
+					<option>大三</option>
+					<option>大四</option>
+					<option>其他</option>
+				</select>
+				</label>
+			</p>
+			<p>
+			<input type = "submit" value = "送出">
+			<input type = "reset" value = "重設">
+			</p>
+		</form>
+	</body>
+</html>
